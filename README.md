@@ -1,3 +1,7 @@
+![Mine3D Embedded](https://raw.githubusercontent.com/studioberry-hub/mine3d-embedded/refs/heads/main/.github/assets/logo.png)
+
+---
+
 # Mine3D Embedded
 
 WebGL-движок для 3D-рендера Minecraft-скинов: студийный свет, outer-voxels, анимации, кадрирование камеры и отладочная телеметрия.
