@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-demo/
+dist-basic/
+*.log
+.DS_Store
+.vite/
+*.tsbuildinfo
+.idea/
+.vscode/*
+!.vscode/extensions.json
