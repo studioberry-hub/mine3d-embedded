@@ -120,7 +120,14 @@ npm run typecheck  # проверка типов без emit
 npm run dev        # playground
 ```
 
+## Использование в проектах
 
+Вы можете использовать движок в своём проекте - достаточно сделать форк и актуализировать его по мере изменений в основной ветке (этой) движка.
+
+| Проект              | Описание                           |
+| ------------------- | ---------------------------------- |
+| [Undefined Client](https://github.com/studioberry-hub/client/tree/main/skinviewengine)       | Основной движок рендеринга скинов в Undefined Client: отдельная ветка под клиент нашего проекта |
+| [Millida Launcher](https://github.com/millida/launcher/tree/main/src/vendor/mine3d) | Движок рендеринга в Millida Launcher как вендрорная ветка: служит основой для рендеринга скинов в лаунчере Millida     |
 
 ## Связь с Undefined Client
 
