@@ -1,15 +1,15 @@
-// Vite: playground-демо и статическая сборка примеров
+// Конфигурация Vite для демо-примера и сборки библиотеки
 import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  root: "examples/playground",
-  publicDir: false,
+  root: "examples/demo",
+  publicDir: "../../public",
   build: {
     outDir: "../../dist-demo",
     emptyOutDir: true,
     rollupOptions: {
-      input: resolve(__dirname, "examples/playground/index.html"),
+      input: resolve(__dirname, "examples/demo/index.html"),
     },
   },
   server: {
@@ -18,7 +18,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "mine3d-embedded": resolve(__dirname, "src"),
+      skinviewengine: resolve(__dirname, "src"),
     },
   },
 });

@@ -1,11 +1,8 @@
+# Артефакты сборки и локальные зависимости
 node_modules/
 dist/
 dist-demo/
-dist-basic/
-*.log
+
+# IDE / OS
 .DS_Store
-.vite/
-*.tsbuildinfo
-.idea/
-.vscode/*
-!.vscode/extensions.json
+*.log
