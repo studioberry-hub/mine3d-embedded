@@ -1,3 +1,7 @@
+![Mine3D Embedded](https://raw.githubusercontent.com/studioberry-hub/mine3d-embedded/refs/heads/main/.github/assets/logo.png)
+
+---
+
 # Mine3D Embedded
 
 WebGL-движок для 3D-рендера Minecraft-скинов: студийный свет, outer-voxels, анимации, кадрирование камеры и отладочная телеметрия.
@@ -116,11 +120,22 @@ npm run typecheck  # проверка типов без emit
 npm run dev        # playground
 ```
 
+## Использование в проектах
 
+Вы можете использовать движок в своём проекте - достаточно сделать форк и актуализировать его по мере изменений в основной ветке (этой) движка.
+
+| Проект              | Описание                           |
+| ------------------- | ---------------------------------- |
+| [Undefined Client](https://github.com/studioberry-hub/client/tree/main/skinviewengine)       | Основной движок рендеринга скинов в Undefined Client: отдельная ветка под клиент нашего проекта |
+| [Millida Launcher](https://github.com/millida/launcher/tree/main/src/vendor/mine3d) | Движок рендеринга в Millida Launcher как вендрорная ветка: служит основой для рендеринга скинов в лаунчере Millida     |
 
 ## Связь с Undefined Client
 
 Движок также живёт внутри лаунчера как внутренний пакет `skinviewengine`. Этот репозиторий — публичная форма той же кодовой базы для внешних проектов. Поведение рендера совпадает с лаунчером и демо на сайте.
+
+## Связь с Millida Launcher
+
+Движок в Millida Launcher живёт как внутренняя библиотека, но с сохранением прав и лицензии изначального правообладателя: он может меняться и модифицироваться внутри Millida, но основные правки движка (включая стабильность и оптимизацию) вносятся в основной ветке. [@millida](https://github.com/millida)
 
 ## Лицензия
 
