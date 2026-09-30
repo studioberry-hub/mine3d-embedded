@@ -128,6 +128,7 @@ npm run dev        # playground
 | ------------------- | ---------------------------------- |
 | [Undefined Client](https://github.com/studioberry-hub/client/tree/main/skinviewengine)       | Основной движок рендеринга скинов в Undefined Client: отдельная ветка под клиент нашего проекта |
 | [Millida Launcher](https://github.com/millida/launcher/tree/main/src/vendor/mine3d) | Движок рендеринга в Millida Launcher как вендрорная ветка: служит основой для рендеринга скинов в лаунчере Millida     |
+| [JustLauncher](https://justlauncher.org/ru) | Движок рендеринга в JustLauncher: применяется в менеджере скинов, внутренняя ветка проекта (закрытый код) |
 
 ## Связь с Undefined Client
 
@@ -136,6 +137,10 @@ npm run dev        # playground
 ## Связь с Millida Launcher
 
 Движок в Millida Launcher живёт как внутренняя библиотека, но с сохранением прав и лицензии изначального правообладателя: он может меняться и модифицироваться внутри Millida, но основные правки движка (включая стабильность и оптимизацию) вносятся в основной ветке. [@millida](https://github.com/millida)
+
+## Связь с JustLauncher
+
+Движок в JustLauncher живёт как внутренняя библиотека с рядом изменений: мы не видим эти изменения и не можем гарантировать наличие `features` из основной ветки, так как он может быть изменён в процессе.
 
 ## Лицензия
 
